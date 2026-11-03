@@ -2,5 +2,10 @@ Group 13
  Nishadi Rajasekara
  Front-End Lead
 
+<<<<<<< HEAD
 Chamodya Rajapaksha
 Azure Lead
+=======
+ Raaef
+ Cloud Member 
+>>>>>>> 325707b899d61a216f832b2c7602dac1ec49b84f
