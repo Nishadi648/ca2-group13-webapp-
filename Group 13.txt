@@ -10,5 +10,10 @@ Azure Lead
  Cloud Member 
 >>>>>>> 325707b899d61a216f832b2c7602dac1ec49b84f
 
+<<<<<<< HEAD
 Nilanga
 Deployment Lead
+=======
+Charuka Ramindu
+Repo Lead
+>>>>>>> 6a3d4939984e04e7c91a2ca2c1fa101742142b1f
