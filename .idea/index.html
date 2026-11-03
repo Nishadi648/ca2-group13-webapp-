@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group G Cloud Showcase</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f7fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #0078d4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #0078d4;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background-color: #0078d4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #005ea6;
+        }
+
+        #dateResult {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #008000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Group G Cloud Showcase</h1>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#team">Team</a>
+        <a href="#cloud">Cloud</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Home</h2>
+
+    <p>
+        Welcome to the Group G Cloud Showcase website.
+        This page demonstrates cloud computing concepts,
+        teamwork, and web development skills as part of Lab 4.
+    </p>
+
+    <button onclick="showDate()">Show Date</button>
+
+    <p id="dateResult"></p>
+</section>
+
+<section id="team">
+    <h2>Team</h2>
+
+    <p>
+        Group G consists of enthusiastic students learning cloud
+        technologies, version control with GitHub, and web development.
+    </p>
+</section>
+
+<section id="cloud">
+    <h2>Cloud</h2>
+
+    <p>
+        Cloud computing provides on-demand access to computing resources
+        such as servers, storage, databases, and networking over the internet.
+        Popular cloud platforms include Microsoft Azure, Amazon Web Services (AWS),
+        and Google Cloud Platform (GCP).
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>
+        Email: groupg@example.com
+        <br>
+        Phone: +61 123 456 789
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Group G Cloud Showcase</p>
+</footer>
+
+<script>
+    function showDate() {
+        const today = new Date();
+        document.getElementById("dateResult").innerHTML =
+            "Today's Date: " + today.toDateString();
+    }
+</script>
+
+</body>
+</html>
